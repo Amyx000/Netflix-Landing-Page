@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+body{
+    background-color: black !important;
+    color: white !important;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+
+}
+
+.firstdiv{
+    height:693.2px;
+    position: relative;
+}
+
+.banner-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.banner-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.4);
+    background-image: linear-gradient(0deg,rgba(0,0,0,.8) 0,transparent 60%,rgba(0,0,0,.8));
+}
+
+
+.navbarr{
+    display: grid;
+    grid-template-columns:1fr repeat(2,auto);
+    align-items: center;
+    padding: 0 45px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.icon{
+    height: 6rem;
+    
+}
+
+.sign-btn{
+    background-color: #e50914;
+    color: white;
+    border-radius: 3px;
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 4px 17px;
+    border: none;
+}
+
+.nav-select{
+    border: 1px solid rgb(170, 170, 170);
+    background-color: transparent;
+    color: white;
+    padding: 4px 0px 4px 15px;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-right: 40px;
+    border-radius: 2px;
+}
+
+option{
+    background-color: #d5d1d1;
+}
+
+.firstdiv-inside{
+    text-align: center;
+    position: absolute;
+    top: 33vh;
+    left: 0;
+    right: 0;
+}
+
+.inside-head{
+    font-size: 3.125rem;
+    margin: 0 30%;
+}
+
+.inside-subhead{
+    font-size: 1.625rem;
+    font-weight: 100;
+    margin-top:  10px;
+}
+.inside-subhead2{
+    font-size: 18px;
+    font-weight: 100;
+    margin-top: 25px;
+}
+
+.input-block{
+    margin: 0 25%;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    align-items: center;
+}
+
+.email-input{
+    
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    box-sizing: border-box;
+    outline: none;
+    font-size: 15px;
+    
+}
+
+.email-input-btn{
+    background-color: #e50914;
+    color: white;
+    font-size: 1.625rem;
+    border-radius: 3px;
+    width: 100%;
+    padding: 15px 20px;
+    border: none;
+}
+
+
+.sec1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    border-top: 8px solid #222;
+    padding: 70px 20px 70px 80px;
+    
+}
+
+.sec-head{
+    font-size: 3.125rem;
+    margin: 0 0 1rem 0;
+    
+}
+
+.sec-subhead{
+    font-size: 1.625rem;
+    font-weight: 400;
+    margin: 0;
+}
+
+.sec1div2{
+    width: 90%;
+}
+
+.sec1div1{
+    padding-right: 60px;
+}
+
+.sec-img{
+    max-width: 100%;
+    height: auto;
+}
+
+.sec2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    /* justify-items: center; */
+    border-top: 8px solid #222;
+    padding: 25px 45px 60px 0;
+    gap:40px
+}
+
+.sec2div2{
+    padding-right: 30px;
+}
+
+.sec2div1{
+    width: 40vw;
+}
+
+.sec3{
+   
+    align-items: center;
+    padding: 40px 0px 70px 55px;
+    
+}
+
+.sec3div2{
+    width: 100%;
+}
+
+.sec4{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    border-top: 8px solid #222;
+    padding: 70px 55px;
+    gap:30px
+}
+
+.sec4div2{
+    padding-right: 10px;
+}
+
+.sec4div1{
+    width: 95%;
+}
+
+.sec5{
+    border-top: 8px solid #222;
+    padding: 70px 16vw;
+    text-align: center;
+}
+
+.footer{
+    border-top: 8px solid #222;
+    color: rgb(115, 115, 115);
+}
+
+.foot-main{
+    margin: 70px 12.5vw 35px 12.5vw;
+}
+
+.foot-main>div>span:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.foot-contain{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    font-size: 13px;
+    gap:15px;
+    margin: 30px 0px;
+}
+
+.foot-contain > div:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.foot-select{
+  color:rgb(115, 115, 115);
+  padding: 10px 5px 10px 50px;
+  font-size: 1.2rem;
+  font-weight: 400;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.foot-op{
+    background-color: black;
+}
+
+.select{
+    position: relative;
+}
+
+.globeicon{
+    position: absolute;
+    left: 17px;
+    top: 17px;
+}
+
+.globeicon2{
+    position: absolute;
+    left: 5px;
+    top: 12px;
+    font-size: 12px;
+}
+
+
+.faq-body{
+    color: white;
+    background-color: rgb(48, 48, 48);
+    text-align: left;
+}
+
+.faq-btn{
+    background-color: rgb(48, 48, 48) !important;
+    color: white !important;
+    font-size: 1.625rem !important;
+    margin-bottom: 10px !important;
+}
+
+.faq-btn:focus{
+    box-shadow: none !important;
+}
+
+.accordion-button.collapsed::after {
+
+    background: url("https://img.icons8.com/android/24/FFFFFF/plus.png");
+  
+}
+  
+.accordion-button:not(.collapsed)::after {
+  
+    background: url("https://img.icons8.com/material-outlined/24/FFFFFF/multiply--v1.png") !important;
+  
+}
+
+
+.faq{
+    margin-top: 45px;
+    font-size: 1.625rem !important;
+}
+
+.faq-item{
+    background-color: transparent !important;
+}
