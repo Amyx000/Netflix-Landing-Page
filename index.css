@@ -309,7 +309,8 @@ option{
 .input-btn{
     background-color: #e50914;
     color: white;
-    font-size: 1.625rem;
+    font-size: 2vw;
+    font-weight: 500;
     border-bottom-right-radius:3px;
     border-top-right-radius:3px ;
     border: none;
