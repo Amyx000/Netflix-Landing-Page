@@ -122,6 +122,7 @@ option{
 
 .sec1div2{
     width: 90%;
+    position: relative;
 }
 
 .sec1div1{
@@ -131,16 +132,34 @@ option{
 .sec-img{
     max-width: 100%;
     height: auto;
+    position: relative;
+    z-index: 1;
 }
 
 .sec2{
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
-    /* justify-items: center; */
     border-top: 8px solid #222;
     padding: 25px 45px 60px 0;
     gap:40px
+}
+
+.sec2-img-inside{
+    background-color: black;
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+    border: 2px solid rgba(255, 255, 255, 0.25);
+    border-radius: 0.75em;
+    padding: 0.75em 0.75em;
+    gap: 15px;
+    position: absolute;
+    bottom: 7.5%;
+    left: 18%;
+    right: 0;
+    z-index: 1;
+    width: 67%;
 }
 
 .sec2div2{
@@ -149,6 +168,7 @@ option{
 
 .sec2div1{
     width: 40vw;
+    position: relative;
 }
 
 .sec3{
@@ -160,6 +180,7 @@ option{
 
 .sec3div2{
     width: 100%;
+    position: relative;
 }
 
 .sec4{
@@ -319,4 +340,19 @@ option{
     position: absolute;
     top: 0;
     right: 0;
+}
+
+
+.video1{
+    position: absolute;
+    top: 21%;
+    left: 13%;  
+    width: 73%;
+}
+
+.video2{
+    position: absolute;
+    top:10%;
+    left:19%;
+    width: 61%;
 }
